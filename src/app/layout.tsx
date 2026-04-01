@@ -8,8 +8,8 @@ const outfit = Outfit({
 });
 
 export const metadata: Metadata = {
-  title: "Circularidade Leite | CNAE 1052000",
-  description: "Diagnóstico de circularidade para o setor leiteiro",
+  title: "Circularidade Alimentos | ISO 59020",
+  description: "Diagnóstico de circularidade para alimentos e agroindústria",
 };
 
 export default function RootLayout({
@@ -20,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="pt-BR">
       <body className={`${outfit.variable} antialiased`}>
-        <div className="min-h-screen bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-blue-50 via-white to-green-50">
+        <div className="min-h-screen bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-amber-50 via-white to-emerald-50">
           {children}
         </div>
       </body>
